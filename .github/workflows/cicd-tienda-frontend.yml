@@ -34,4 +34,4 @@ jobs:
 
       - name: Push Docker Image
         run: |
-          637423223864.dkr.ecr.us-east-1.amazonaws.com/frontend:latest
+          docker push 637423223864.dkr.ecr.us-east-1.amazonaws.com/frontend:latest
